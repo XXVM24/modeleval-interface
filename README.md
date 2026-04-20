@@ -24,7 +24,7 @@ conda activate llm-eval
 ### 2. Clone the repository
 
 ```bash
-git clone https://github.com/XXVM24/interface.git
+git clone https://github.com/XXVM24/modeleval-interface.git
 cd interface
 ```
 
