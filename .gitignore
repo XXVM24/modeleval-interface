@@ -1,0 +1,23 @@
+# Environment & secrets
+.env
+
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Evaluation results (generated outputs, not source)
+results/
+
+# OS
+.DS_Store
+Thumbs.db
