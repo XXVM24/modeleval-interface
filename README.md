@@ -45,7 +45,9 @@ GOOGLE_API_KEY=AIzaxxxxxxxxxx
 ```
 
 > You only need keys for the models you plan to use. Leave unused keys blank.
-
+> To get OpenAI API key:please visit:https://platform.openai.com/home
+> Gemini API key:https://aistudio.google.com/prompts/new_chat
+> firework AI:https://fireworks.ai/ 
 ---
 
 ## Launch
