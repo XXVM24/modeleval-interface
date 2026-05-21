@@ -3,6 +3,16 @@
 A web-based interface for evaluating multiple LLM models on QA datasets. Supports cloud API models (OpenAI GPT-4o, Google Gemini, Fireworks AI) and optional local HuggingFace models. Features include dataset cleaning, audio transcription, noise robustness testing, and automated metric evaluation (ROUGE, BLEU, BERTScore).
 
 ---
+## Data Availability
+
+The full audio dataset used in this project is available on Hugging Face:
+
+Cnyuan/modeleval_interface
+https://huggingface.co/datasets/Cnyuan/modeleval_interface/tree/main
+
+Due to the large size of the audio files, the complete audio data is not stored directly in this GitHub repository. The `data/` folder only contains the text-based version of the dataset, including the English and Chinese question files and reference information used for evaluation.
+
+Users who want to reproduce the full audio-based experiments should download the audio files from the Hugging Face dataset page and place them in the corresponding local audio directories before running the evaluation scripts.
 
 ## Requirements
 
